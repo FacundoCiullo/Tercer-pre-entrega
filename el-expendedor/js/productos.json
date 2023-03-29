@@ -1,0 +1,182 @@
+[
+    {
+        "id": "bebidas-01",
+        "titulo": "Gaseosa Cola",
+        "imagen": "./img/bebidas/01.avif",
+        "categoria": {
+            "nombre": "Bebidas",
+            "id": "bebidas"
+        },
+        "precio": 800
+    },
+    {
+        "id": "bebidas-02",
+        "titulo": "Agua",
+        "imagen": "./img/bebidas/02.avif",
+        "categoria": {
+            "nombre": "Bebidas",
+            "id": "bebidas"
+        },
+        "precio": 500
+    },
+    {
+        "id": "bebidas-03",
+        "titulo": "Pomelo",
+        "imagen": "./img/bebidas/03.avif",
+        "categoria": {
+            "nombre": "Bebidas",
+            "id": "bebidas"
+        },
+        "precio": 600
+    },
+    {
+        "id": "bebidas-04",
+        "titulo": "Lima Limon",
+        "imagen": "./img/bebidas/04.avif",
+        "categoria": {
+            "nombre": "Bebidas",
+            "id": "bebidas"
+        },
+        "precio": 500
+    },
+    {
+        "id": "bebidas-05",
+        "titulo": "Café mediano",
+        "imagen": "./img/bebidas/05.avif",
+        "categoria": {
+            "nombre": "Bebidas",
+            "id": "bebidas"
+        },
+        "precio": 300
+    },
+    {
+        "id": "snaks-01",
+        "titulo": "Surtido",
+        "imagen": "./img/snaks/01.jpg",
+        "categoria": {
+            "nombre": "Snaks",
+            "id": "snaks"
+        },
+        "precio": 600
+    },
+    {
+        "id": "snaks-02",
+        "titulo": "Galletas con chíps",
+        "imagen": "./img/snaks/02.jpg",
+        "categoria": {
+            "nombre": "Snaks",
+            "id": "snaks"
+        },
+        "precio": 700
+    },
+    {
+        "id": "snaks-03",
+        "titulo": "Galletas de salvado",
+        "imagen": "./img/snaks/03.jpg",
+        "categoria": {
+            "nombre": "Snaks",
+            "id": "snaks"
+        },
+        "precio": 300
+    },
+    {
+        "id": "snaks-04",
+        "titulo": "Galletas dulces",
+        "imagen": "./img/snaks/04.jpg",
+        "categoria": {
+            "nombre": "Snaks",
+            "id": "snaks"
+        },
+        "precio": 300
+    },
+    {
+        "id": "snaks-05",
+        "titulo": "Galletas de chocolate",
+        "imagen": "./img/snaks/05.jpg",
+        "categoria": {
+            "nombre": "Snaks",
+            "id": "snaks"
+        },
+        "precio": 700
+    },
+    {
+        "id": "snaks-06",
+        "titulo": "Papas fritas",
+        "imagen": "./img/snaks/06.jpg",
+        "categoria": {
+            "nombre": "Snaks",
+            "id": "snaks"
+        },
+        "precio": 600
+    },
+    {
+        "id": "snaks-07",
+        "titulo": "Nachos",
+        "imagen": "./img/snaks/07.jpg",
+        "categoria": {
+            "nombre": "Snaks",
+            "id": "snaks"
+        },
+        "precio": 800
+    },
+    {
+        "id": "snaks-08",
+        "titulo": "Palitos salados",
+        "imagen": "./img/snaks/08.jpg",
+        "categoria": {
+            "nombre": "Snaks",
+            "id": "snaks"
+        },
+        "precio": 300
+    },
+    {
+        "id": "dulces-01",
+        "titulo": "Chocolate",
+        "imagen": "./img/dulces/01.avif",
+        "categoria": {
+            "nombre": "Dulces",
+            "id": "dulces"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "dulces-02",
+        "titulo": "Chocolate Blanco",
+        "imagen": "./img/dulces/02.jpg",
+        "categoria": {
+            "nombre": "Dulces",
+            "id": "dulces"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "dulces-03",
+        "titulo": "Turrón",
+        "imagen": "./img/dulces/03.jpg",
+        "categoria": {
+            "nombre": "Dulces",
+            "id": "dulces"
+        },
+        "precio": 200
+    },
+    {
+        "id": "dulces-04",
+        "titulo": "Barra de cereal",
+        "imagen": "./img/dulces/04.avif",
+        "categoria": {
+            "nombre": "Dulces",
+            "id": "dulces"
+        },
+        "precio": 300
+    },
+    {
+        "id": "dulces-05",
+        "titulo": "Caramelos",
+        "imagen": "./img/dulces/05.avif",
+        "categoria": {
+            "nombre": "Dulces",
+            "id": "dulces"
+        },
+        "precio": 200
+    }
+]

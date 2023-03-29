@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>El Expendedor</title>
+</head>
+<body>
+
+    <div class="wrapper" >
+        <header class="header-mobile">
+            <a href="../index.html" class="logo"><img src="./img/logo.png" alt="logo que dice el expendedor"></a>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+        <aside>
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
+            <header>
+                <a href="../index.html" class="logo"><img src="./img/logo.png" alt="logo que dice el expendedor"></a>
+            </header>
+            <!-- JavaScript menu.js -->
+            <nav>
+                <ul>
+                    <li>
+                        <a class="boton-menu boton-volver" href="./index.html">
+                            <i class="bi bi-arrow-return-left link-light"></i> Seguir comprando
+                        </a>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito active" href="./carrito.html">
+                            <i class="bi bi-cart-fill"></i> Carrito
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <a href="https://www.linkedin.com/in/facundo-ciullo/" target="_blank">                
+                <img class="icon-footer" src="./img/icono-linkedin.svg" alt="ícono de linkedin">
+                </a>
+                <a href="https://www.linkedin.com/in/facundo-ciullo/" target="_blank">
+                <h2 class="texto-footer">© 2023 Facundo Ciullo</h2>
+                </a>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal">Carrito</h2>
+            <div class="contenedor-carrito" data-aos="fade-up">
+
+                <!-- carrito vacío -->
+
+                <p id="carrito-vacio" class="carrito-vacio" alt="Tu carrito está vacío">Tu carrito está vacío. <i class="bi bi-emoji-frown"></i></p>
+
+                <!-- contenedor de productos enlistados -->
+
+                <div id="carrito-productos" class="carrito-productos disabled" >
+
+                <!-- JavaScript carrito.js -->
+
+                </div>
+
+                <!-- opción comprar y precio total-->
+
+                <div id="carrito-acciones" class="carrito-acciones disabled">
+                    <div class="carrito-acciones-derecha">
+                        <button id="carrito-acciones-comprar" class="carrito-acciones-comprar" alt="Comprar ahora">Comprar ahora</button>
+                        <div class="carrito-acciones-total">
+                            <p>Total:</p>
+                            <p id="total">$3000</p>
+                        </div>
+                    </div>
+
+                <!-- opción vaciar carrito -->
+
+                    <div class="carrito-acciones-izquierda">
+                        <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar" alt="vaciar carrito">Vaciar carrito</button>
+                    </div>
+
+                <!-- confirmación de compra -->
+
+                </div>
+                <p id="carrito-comprado" class="carrito-comprado disabled">
+                Muchas gracias por tu compra. Presentá el ticket en caja y retirá tu pedido. Hasta la próxima! 
+                <i class="bi bi-emoji-laughing"></i></p>
+            </div>
+        </main>
+    </div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/carrito.js"></script>
+    <script src="./js/menu.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
